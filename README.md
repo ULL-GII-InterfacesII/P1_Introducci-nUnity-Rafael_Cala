@@ -18,31 +18,31 @@ Realizar una escena 3D básica utilizando exclusivamente el editor de escenas. L
  ## Incluir dos objetos 3D básicos
  Para esta primera tarea, no se necesita importar ningún tipo de asset, pues los objetos 3d básicos se pueden utilizar por defecto en Unity. Se ha optado por incluir dos esferas, que han quedado dispuestas en el aire de la siguiente manera:
  
- ![Imagen de los objetos básicos]()
+ ![Imagen de los objetos básicos](/IMG/Esferas.png)
  
  ``` GameObject > 3D object > Sphere ```
  
  ## Incluir a Ethan, un characterModel de los Standard Assets
  En este segundo punto sí es necesario llevar a cabo una importación, por lo que se recurre a la Asset Store, donde se buscan, descargan e importan los Standard Asset y de los que podemos optar o bien importar todo lo descargado, o solo quedarnos con aquello que nos interese. A fin de evitar errores de compatibilidad que existen actualmente en los Standard Assets, se opta por importar únicamente los recursos referentes a Ethan y otros relacionados con el entorno que se verán más adelante.
  
- ![Imagen de Ethan]()
+ ![Imagen de Ethan](/IMG/Ethan.png)
  
   ``` Assets > Standard Assets > Characters > ThirdPersonCharacter > Models > Ethan ```
   
  ## Incluir un objeto cualquiera de la Asset Store
  Para realizar esta tarea se ha decidido incluir un pequeño retrete para el personaje Ethan. Éste se ha importado del asset Hut, que incluía otros prefabs interesantes, pero que, no se incluyeron al importar por el mismo motivo que el punto anterior.
  
- ![Imagen del retrete]()
+ ![Imagen del retrete](/IMG/Retrete.png)
  
 ## Creación del terreno para los objetos
 Se ha creado un terreno, al que, además de incluirle los objetos previamente mencionados, también se han añadido diversas texturas, árboles y césped con el mero objetivo de adaptación a las herramientas que proporcionan los componentes del Terrain. La escena queda de la siguiente forma:
 
- ![Imagen del terreno]()
+ ![Imagen del terreno](/IMG/Escena.png)
 
 ## Etiquetado de los objetos
 A cada objeto utilizado se le ha creado y asociado su propio Tag:
-![Imagen del nombre de las etiquetas]()
-![Imagen de etiqueta de un objeto]()
+![Imagen del nombre de las etiquetas](/IMG/Tags.png)
+![Imagen de etiqueta de un objeto](/IMG/Tag.png)
 
 ## Dos fuentes de luz en la escena
 
@@ -51,8 +51,8 @@ La realización del penúltimo punto viene dada por duplicar el Directional Ligh
 ## Scripts 
 Como la tarea a realizar es la misma para todos los objetos (a excepción del identificador numérico correspondiente a cada uno), basta con mostrar la estructura del script de uno de ellos:
 
-![Imagen de script]()
-![Resultado script]()
+![Imagen de script](/IMG/script.png)
+![Resultado script](/IMG/ConsolaScript.png)
 
 ## Extras añadidos
 ### OnMouseDown(), un poco de interactividad en los objetos
