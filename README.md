@@ -59,8 +59,8 @@ Como la tarea a realizar es la misma para todos los objetos (a excepción del id
 
 A fin de experimentar un poco con las posibilidades que ofrece el motor Unity, se ha añadido a los scripts pedidos la función OnMouseDown(), que imprimirá un mensaje cada vez que se clicke en el gameObject junto al número de veces clickado anteriormente. Dicha funcionalidad funciona perfectamente con los objetos básicos de Unity (nuestras esferas por ejemplo), pero para que funcionen con los otros objetos tales como Ethan o el retrete, es necesario que tengan un collider. Dicho esto, es destacable comentar que el área del collider comprenda la del propio objeto para que el resultado sea lo más satisfactorio posible.
 
-![OnMouseDown]()
-!gif
+![OnMouseDown](/IMG/onmousedown.png)
+![Ejemplo de la funcion](/GIFS/ClickObjetos.gif)
 
 ### Wind Zone
 Se ha incluido en la escena un Wind Zone cuya función es, conferir a los árboles y hierbajos el efecto de que se mueven con la brisa, dando una sensación de realismo bastante interesante. El efecto de éste variará según cómo se modifiquen variables como su turbulencia, magnitud, etc...
@@ -69,6 +69,6 @@ Tal y como se podía observar en imágenes anteriores, la escena tambíen cuenta
 
 # Escena final en movimiento
 
-!gif
+![Escena final](/GIFS/EscenaMovimiento.gif)
 
 
